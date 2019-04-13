@@ -19,4 +19,4 @@ end point will be a random point generate by the code
 
 A description of the algorithm can be seen.
 
-process.png
+![Image text](https://github.com/captjulian/LASER_BASED_RRT_STAR/blob/master/LASER_BASED_RRT_STAR/process.png)
