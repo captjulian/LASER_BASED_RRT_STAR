@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<package>
+  <name>LASER_BASED_RRT_STAR</name>
+  <version>1.0.0</version>
+  <description>A ROS package for test Laser-based-RealTime-RRTSTAR.</description>
+
+  <author>Liang LU</author>
+  <maintainer email="luliang9211@gmail.com">Liang LU</maintainer>
+  <license>UPM</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>roscpp</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>visualization_msgs</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_depend>message_generation</build_depend>
+    <build_depend>nav_core</build_depend>
+    <build_depend>nav_msgs</build_depend>
+    <build_depend>rospy</build_depend>
+    <build_depend>sensor_msgs</build_depend>
+    <build_depend>droneMsgsROS</build_depend>
+    <build_depend>droneModuleROS</build_depend>
+    <build_depend>drone_process</build_depend>
+    <build_depend>opencv_apps</build_depend>
+    <build_depend>message_generation</build_depend>
+    <build_depend>cv_bridge</build_depend>
+    <build_depend>image_transport</build_depend>
+    <build_depend>mav_trajectory_generation_ros</build_depend>
+
+
+
+
+
+    <run_depend>geometry_msgs</run_depend>
+    <run_depend>nav_msgs</run_depend>
+    <run_depend>rospy</run_depend>
+    <run_depend>roscpp</run_depend>
+    <run_depend>std_msgs</run_depend>
+    <run_depend>visualization_msgs</run_depend>   
+    <run_depend>sensor_msgs</run_depend>
+    <run_depend>std_msgs</run_depend>
+    <run_depend>droneMsgsROS</run_depend>
+    <run_depend>droneModuleROS</run_depend>
+    <run_depend>drone_process</run_depend>
+    <run_depend>opencv_apps</run_depend>
+    <run_depend>message_runtime</run_depend>
+    <run_depend>cv_bridge</run_depend>
+    <run_depend>image_transport</run_depend>
+    <run_depend>mav_trajectory_generation_ros</run_depend>
+
+    <!--run_depend>message_generation</run_depend-->
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
+
+  
+

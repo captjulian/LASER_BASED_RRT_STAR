@@ -1,0 +1,37 @@
+<Laser_Based_Navigation_Config>
+  <description>Configuration file for the Laser Based Navigation package.</description>
+
+  <!-- FLAGS for VISUALIZATION purposes -->
+  <imshow_laser_state_scans>1</imshow_laser_state_scans>
+  <imshow_laser_state_scans_and_goal>1</imshow_laser_state_scans_and_goal>
+  <imshow_all_saturated_ranges>1</imshow_all_saturated_ranges>
+  <imshow_obstacles_boundary>1</imshow_obstacles_boundary>
+
+
+  <!-- FLAGS for TESTING MODES -->
+  <test_goal_sequence_mode>0</test_goal_sequence_mode>  
+
+  
+  <min_distance_to_target_thresh>0.3</min_distance_to_target_thresh>
+  <virtual_ranges_offset>0.0</virtual_ranges_offset> <!--!!OFFSET substracted to each laser range -->
+    
+  <environment_info>
+    <name>house_6</name>
+    <num_episode_steps>500</num_episode_steps>
+    <actions_min_value>-1.0</actions_min_value>
+    <actions_max_value>1.0</actions_max_value>
+    <max_pos_x>4.0</max_pos_x>
+    <max_pos_y>4.0</max_pos_y>
+  </environment_info>
+
+  <laser_info>
+    <max_virtual_range>2.0</max_virtual_range>
+    <max_real_range>30</max_real_range>
+    <min_real_range>0.10</min_real_range>
+    <num_ranges>1079</num_ranges>
+    <angle_range>270</angle_range>
+    <min_range_reset_value>0.2</min_range_reset_value>
+  </laser_info>
+	
+</Laser_Based_Navigation_Config>
+

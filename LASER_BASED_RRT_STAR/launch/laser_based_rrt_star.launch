@@ -1,0 +1,22 @@
+<!-- Launch file for the Laser-Based-RealTime-RRTSTAR-detector -->
+
+
+<launch>
+
+
+<arg name="my_stack_directory" 		default="$(env AEROSTACK_STACK)" />
+	<arg name="drone_id_int" 		      default="7" />  	
+	<arg name="drone_id_namespace"    default="drone7" />
+
+  <arg name="configs_path"			default="$(find LASER_BASED_RRT_STAR)/configs/LaserBasedNavigation.xml" />
+
+<group ns="drone$(arg drone_id_int)">
+
+    <node pkg="LASER_BASED_RRT_STAR" type="laser_based_rrt_star_node" name="laser_based_rrt_star_node" output="screen">
+	<param name="configs_path" 	value="$(arg configs_path)" type="string"/>
+  </node>
+
+
+</group>
+ 
+</launch>
