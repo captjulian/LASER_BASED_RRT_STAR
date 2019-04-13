@@ -15,4 +15,8 @@ end point will be a random point generate by the code
 
 3.rrt_star_perform is the main function of rrtstar algorithm.
 
-4.using signed distance map to detect the obstacles and the size of the signed distace map is 4mX4m(the resolution is 0.02m)
+4.using signed distance map to detect the obstacles and the size of the signed distace map is 4mX4m(the resolution is 0.02m).
+
+A description of the algorithm can be seen.
+
+process.png
