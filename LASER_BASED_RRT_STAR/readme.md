@@ -1,5 +1,7 @@
 This is a readme file for LASER_BASED_REALTIME_RRTSTAR algorithm.
 
+More details can be seen from our paper: L. Lu, C. Sampedro, J. Rodriguez-Vazquez and P. Campoy, "Laser-based Collision Avoidance and Reactive Navigation using RRT* and Signed Distance Field for Multirotor UAVs," 2019 International Conference on Unmanned Aircraft Systems (ICUAS), Atlanta, GA, USA, 2019, pp. 1209-1217.
+
 Before using this package you should install AEROSTACK and put this package in the fold of stack_devel.
 
 the way of installing AEROSTACK can be seen from https://github.com/Vision4UAV/Aerostack/wiki/Install-Aerostack.
